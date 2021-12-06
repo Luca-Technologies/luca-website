@@ -1,4 +1,5 @@
 import React from "react";
+import HeadComp from "../../components/MetaData";
 import Navbar from "../../components/Navbar";
 import JoinHeader from "../../components/JoinHeader";
 import Position from "../../components/Position";
@@ -22,6 +23,11 @@ const vacancy = [
 export default function index() {
   return (
     <div>
+      <HeadComp
+        title=" We are committed to improving the lives of people and businesses by
+          streamlining and automating bookkeeping"
+      />
+
       <Navbar />
       <JoinHeader />
       <Position vacancy={vacancy} />

@@ -2,10 +2,12 @@ import React from "react";
 import Navbar from "../../components/Navbar";
 import TermsAndPolicy from "../../components/TermsAndPolicy";
 import Footer from "../../components/Footer";
+import HeadComp from "../../components/MetaData";
 
 export default function index() {
   return (
     <div>
+      <HeadComp title="Luca is a fast, easy way to keep track of your business finances in Nigeria" />
       <Navbar />
       <TermsAndPolicy
         // dateText="updated 1st  October 2021"

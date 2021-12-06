@@ -1,4 +1,3 @@
-// import Head from "next/head";
 // import Image from "next/image";
 
 import { useState } from "react";
@@ -14,6 +13,7 @@ import UpgradeComp from "../components/UpgradeComp";
 import DesignComp from "../components/DesignComp";
 import Testmonies from "../components/Testmonies";
 import Cookies from "../components/cookies";
+import HeadComp from "../components/MetaData";
 
 import Footer from "../components/Footer";
 // import Logo frr
@@ -22,7 +22,8 @@ export default function Home() {
   const [hideCookies, setHideCookies] = useState(true);
   return (
     <div className={""}>
-     
+      <HeadComp title="The most trusted book-keeping app in Nigeria – Luca" />
+
       <Navbar />
       <Header
         h1Text=" Keep Track. Grow Prosperity"

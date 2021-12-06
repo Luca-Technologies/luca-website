@@ -1,4 +1,6 @@
 import React from "react";
+import HeadComp from "../../components/MetaData";
+
 import Navbar from "../../components/Navbar";
 import TermsAndPolicy from "../../components/TermsAndPolicy";
 import Footer from "../../components/Footer";
@@ -6,6 +8,11 @@ import Footer from "../../components/Footer";
 export default function index() {
   return (
     <div>
+      <HeadComp
+        title="Luca is the easy, affordable way to help keep track of your business
+          finances."
+      />
+
       <Navbar />
       <TermsAndPolicy
         dateText="updated october 2021"

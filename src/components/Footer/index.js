@@ -94,7 +94,7 @@ export default function index() {
               <h5 className="">Company</h5>
               <ul>
                 <li>
-                  <Link href="#">
+                  <Link href="/#features">
                     <a>Features</a>
                   </Link>
                 </li>
