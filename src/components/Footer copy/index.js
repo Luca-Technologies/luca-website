@@ -77,7 +77,7 @@ export default function index() {
 
           <hr />
           <div className="text-center mt-5">
-            <p className="mb-0 pb-3">© 2021 Luca. All rights reserved.</p>
+            <p className="mb-0 pb-3">© 2022 Luca. All rights reserved.</p>
           </div>
         </div>
       </footer>

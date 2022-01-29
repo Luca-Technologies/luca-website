@@ -54,6 +54,10 @@ const Style = styled.div`
     padding: 0;
     list-style: none;
   }
+  span a {
+    color: #fff !important;
+    opacity: 1 !important;
+  }
   @media (max-width: 768px) {
     footer {
       padding-bottom: 8rem;
@@ -77,16 +81,40 @@ export default function index() {
               </p>
               <div>
                 <span className="me-4">
-                  <AiOutlineTwitter color={"#fff"} size={25} />
+                  <a
+                    href="https://twitter.com/LucaAfrica"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineTwitter color={"#fff"} size={25} />
+                  </a>
                 </span>
                 <span className="me-4">
-                  <FaInstagramSquare color={"#fff"} size={25} />
+                  <a
+                    href="https://instagram.com/lucaheadquaters?utm_medium=copy_link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaInstagramSquare color={"#fff"} size={25} />
+                  </a>
                 </span>
                 <span className="me-4">
-                  <AiFillFacebook color={"#fff"} size={25} />
+                  <a
+                    href="https://www.facebook.com/Luca-106449338582738"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillFacebook color={"#fff"} size={25} />
+                  </a>
                 </span>
                 <span className="me-4">
-                  <AiFillLinkedin color={"#fff"} size={25} />
+                  <a
+                    href="https://www.linkedin.com/company/77669683/admin/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiFillLinkedin color={"#fff"} size={25} />
+                  </a>
                 </span>
               </div>
             </div>
@@ -164,7 +192,7 @@ export default function index() {
           </div>
           <hr />
           <div className="text-center mt-5">
-            <p className="mb-0 pb-3">© 2021 Luca. All rights reserved.</p>
+            <p className="mb-0 pb-3">© 2022 Luca. All rights reserved.</p>
           </div>
         </div>
       </footer>
