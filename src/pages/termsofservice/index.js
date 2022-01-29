@@ -15,7 +15,7 @@ export default function index() {
 
       <Navbar />
       <TermsAndPolicy
-        dateText="updated october 2021"
+        dateText="January 2022"
         titleText="Terms of Services"
         termsText={
           <div>
