@@ -24,8 +24,15 @@ import { RiCloseFill } from "react-icons/ri";
 
 const Style = styled.div`
   .bg-light {
-    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.05);
     background-color: white !important;
+  }
+  .btn-get-luca {
+    padding: 15px 30px;
+    border-radius: 7px;
+
+    &:hover {
+      background: lighten(10%, #1d214c);
+    }
   }
   /* .mx-auto a {
     color: #01b5ec !important;
@@ -37,14 +44,19 @@ const Style = styled.div`
     background-color: transparent !important;
   } */
   .navbar-light .navbar-nav .nav-link {
-    color: #01b5ec !important;
+    // color: #01b5ec !important;
     font-size: 15px;
     padding-right: 1rem;
     padding-left: 1rem;
     /* letter-spacing: 1px; */
     text-transform: capitalize !important;
-    font-weight: 600;
     background-color: transparent !important;
+  }
+  .special-nav-link {
+    background-color: #01c4fd14;
+    color: var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 11px;
   }
   button {
     border: none;
@@ -86,7 +98,7 @@ export default function Index() {
         <Container>
           <Link href="/">
             <a className="navbar-brand">
-              <Image src={Logo1} alt="" width="120px" objectFit="cover" />
+              <Image src={Logo1} alt="" objectFit="cover" />
             </a>
           </Link>
           {/* <Navbar.Brand href="#home">
@@ -106,14 +118,17 @@ export default function Index() {
             <Nav className="mx-auto" onClick={() => setToggle(false)}>
               <Nav.Link href="/#features">Features</Nav.Link>
               {/* <Nav.Link href="/about">About us</Nav.Link> */}
-              <Link href="/about">
+              {/* <Link href="/about">
                 <a className="nav-link">About us</a>
-              </Link>
+              </Link> */}
               <Link href="/faqs">
                 <a className="nav-link">FAQs</a>
               </Link>
               <Link href="/contact">
                 <a className="nav-link">Contact us</a>
+              </Link>
+              <Link href="/contact">
+                <a className="special-nav-link">Luca FirstStep</a>
               </Link>
               {/* <Nav.Link href="#pricing">FAQs</Nav.Link> */}
               {/* <Nav.Link href="/contact">Contact us</Nav.Link> */}
@@ -132,7 +147,7 @@ export default function Index() {
               </NavDropdown> */}
             </Nav>
             <Form className="d-flex">
-              <Button variant="primary" className="btn-md d-none d-md-block">
+              <Button variant="primary" className="btn-get-luca">
                 Get Luca
               </Button>
 

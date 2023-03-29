@@ -16,9 +16,22 @@ const Style = styled.div`
   .header .lucas-image-home {
     width: 90%;
   }
+  .title-text {
+    color: var(--secondary-color) !important;
+  }
+  .store-buttons {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center !important;
+  }
   h1 {
     font-size: 49px;
     font-weight: 900;
+  }
+  .header {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 670px;
   }
   p {
     color: #959595;
@@ -83,28 +96,18 @@ const Style = styled.div`
   }
 `;
 
-export default function index({
-  h1Text,
-  p1Text,
-  p2Text,
-  ImageLink,
-  buttonToogle,
-  buttomBorder,
-}) {
+export default function index({ h1Text, buttonToogle }) {
   return (
     <Style>
       <section className="header ">
         <div className="container">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-6 " data-aos="fade-down">
-              <h1 className="mb-3 mb-md-4">{h1Text}</h1>
-              <div className="pe-md-4">
-                <p className="mb-5 pe-md-5 d-none d-md-block">{p1Text}</p>
-                <p className="mb-5 pe-md-4 d-md-none">{p2Text}</p>
-              </div>
+            <div data-aos="fade-down">
+              <h1 className="mb-3 mb-md-4 title-text">{h1Text}</h1>
+              <div className="pe-md-4"></div>
               {!buttonToogle ? (
                 <div
-                  className="d-flex justify-content-center justify-content-md-start align-items-center "
+                  className="d-flex justify-content-center justify-content-md-start align-items-center store-buttons"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                 >
@@ -128,26 +131,8 @@ export default function index({
                 </div>
               )}
             </div>
-            <div className="col-md-6 mt-5 mt-lg-0 d-flex justify-content-center">
-              <div className="lucas-image-home">
-                <Image src={ImageLink} className="img-fluid" alt="" />
-              </div>
-            </div>
           </div>
         </div>
-        {/* {buttomBorder && (
-          <div className="info d-flex align-items-center justify-content-between py-4 px-3 d-block d-md-none">
-            <div className="d-flex align-items-center">
-              <div className="headerImage text-center">
-                <Image src={HeaderImage} alt="" />
-              </div>
-              <h4>LUCA</h4>
-            </div>
-            <div>
-              <button className="btn-md">Get Luca</button>
-            </div>
-          </div>
-        )} */}
       </section>
     </Style>
   );

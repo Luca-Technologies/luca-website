@@ -26,18 +26,7 @@ export default function Home() {
 
       <Navbar />
       <Header
-        h1Text=" Keep Track. Grow Prosperity"
-        p1Text={
-          <>
-            <span className="bold font-weight-bold">Offline First.</span>
-            Luca helps you record all business financial transactions more
-            efficiently with no or low internet speeds and minimum data-usage.
-          </>
-        }
-        p2Text="Luca helps you manage your business finances from a single page
-        dashboard. it will automatically calculate balance, profit and
-        loss, etc for you with just a few clicks."
-        ImageLink={HeaderImage}
+        h1Text="The simplest finance tool for small businesses"
         buttomBorder
       />
       <ManagingComp />

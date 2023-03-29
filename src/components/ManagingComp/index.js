@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import GooglePlay from "../../Assets/Images/Elements/Buttons/Market/Google Play.png";
 import Side from "../../Assets/Images/side.png";
 import PhoneImage from "../../Assets/Images/phone1.png";
 import styled from "styled-components";
@@ -42,10 +41,13 @@ export default function index() {
           <div className="row justify-content-center align-items-center">
             <div className="col-md-6">
               <h1 className="mb-3 mb-md-5" data-aos="fade-down">
-              Manage your business efficiently
-                            </h1>
+                Manage your business efficiently
+              </h1>
               <p className="mb-5" data-aos="fade-down">
-              Get paid faster – Automate Reminders when you sell on credit. Send reminders via SMS and WhatsApp. No more credit sales records in a notebook. All this so that you can make better business decisions.
+                Get paid faster – Automate Reminders when you sell on credit.
+                Send reminders via SMS and WhatsApp. No more credit sales
+                records in a notebook. All this so that you can make better
+                business decisions.
               </p>
               <div className="features">
                 <div
@@ -57,7 +59,7 @@ export default function index() {
                     <IoMdCheckmark size={20} color={"#01b5ec"} />
                   </span>
                   Capture your profits and spend wisely with Luca
-                                  </div>
+                </div>
                 <div
                   className="d-flex"
                   data-aos="fade-right"
@@ -68,7 +70,7 @@ export default function index() {
                     <IoMdCheckmark size={20} color={"#01b5ec"} />
                   </span>
                   Send digital receipt and invoice via WhatsApp.
-                                  </div>
+                </div>
                 <div
                   className="d-flex"
                   data-aos="fade-right"
@@ -78,7 +80,8 @@ export default function index() {
                     {" "}
                     <IoMdCheckmark size={20} color={"#01b5ec"} />
                   </span>{" "}
-                  Keep your books in one place, create invoices, track expenses and more. Anyone can use it!
+                  Keep your books in one place, create invoices, track expenses
+                  and more. Anyone can use it!
                 </div>
               </div>
             </div>
