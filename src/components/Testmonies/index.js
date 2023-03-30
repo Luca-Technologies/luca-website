@@ -15,6 +15,7 @@ const Style = styled.div`
   }
   .slick-track {
     display: flex !important;
+    align-items: baseline;
   }
 
   .slick-slide {
@@ -145,7 +146,7 @@ export default function index({ data }) {
             </div>
 
             <div className="list">
-              <div className="row justify-content-center align-items-center h-100">
+              <div className="row justify-content-center h-100">
                 <Slider
                   {...settings}
                   // responsive={responsive}

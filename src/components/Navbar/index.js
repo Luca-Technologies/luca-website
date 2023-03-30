@@ -127,7 +127,7 @@ export default function Index() {
                 <a className="nav-link">Contact us</a>
               </Link>
               <Link href="/contact">
-                <a className="special-nav-link">Luca FirstStep</a>
+                <a className="special-nav-link">First Step With Luca</a>
               </Link>
               {/* <Nav.Link href="#pricing">FAQs</Nav.Link> */}
               {/* <Nav.Link href="/contact">Contact us</Nav.Link> */}

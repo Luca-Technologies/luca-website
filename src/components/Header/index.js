@@ -23,7 +23,7 @@ const Style = styled.div`
   .header {
     text-align: center;
     margin: 0 auto;
-    max-width: 670px;
+    max-width: 870px;
   }
   p {
     color: #959595;
@@ -95,9 +95,7 @@ export default function index({ h1Text, buttonToogle }) {
         <div className="container">
           <div className="row justify-content-center align-items-center min-h-[300px]">
             <div data-aos="fade-down">
-              <h1 className="mb-3 mb-md-4 title-text !text-secondaryColor">
-                {h1Text}
-              </h1>
+              <h1 className="mb-3 mb-md-4 !text-secondaryColor">{h1Text}</h1>
               <div className="pe-md-4"></div>
               {!buttonToogle ? (
                 <AppStoreButtons />
