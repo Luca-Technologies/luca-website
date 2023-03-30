@@ -99,9 +99,9 @@ const Style = styled.div`
 export default function index({ h1Text, buttonToogle }) {
   return (
     <Style>
-      <section className="header ">
+      <section className="header">
         <div className="container">
-          <div className="row justify-content-center align-items-center">
+          <div className="row justify-content-center align-items-center min-h-[300px]">
             <div data-aos="fade-down">
               <h1 className="mb-3 mb-md-4 title-text">{h1Text}</h1>
               <div className="pe-md-4"></div>
