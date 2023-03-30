@@ -14,12 +14,19 @@ export default function index() {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <button className="mr-3">
+        <a
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=com.falcon.luca"
+          className="mr-3"
+        >
           <Image src={GooglePlayNew} alt="" className="img-fluid" />
-        </button>
-        <button>
+        </a>
+        <a
+          target="_blank"
+          href="https://apps.apple.com/ng/app/luca-easy-bookkeeping-app/id1607814067"
+        >
           <Image src={AppStoreNew} alt="" className="img-fluid" />
-        </button>
+        </a>
       </div>
     </Style>
   );

@@ -12,7 +12,6 @@ import styles from "../../styles/Navbar.module.css";
 //import "../styles/globals.css";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../Assets/Images/Logo1.png";
 import Logo1 from "../../Assets/Images/Logo.svg";
 import NavbarImage from "../../Assets/Images/n.png";
 import GooglePlay from "../../Assets/Images/button1.svg";
@@ -121,7 +120,7 @@ export default function Index() {
               {/* <Link href="/about">
                 <a className="nav-link">About us</a>
               </Link> */}
-              <Link href="/faqs">
+              <Link href="/#faqs">
                 <a className="nav-link">FAQs</a>
               </Link>
               <Link href="/contact">
@@ -147,9 +146,11 @@ export default function Index() {
               </NavDropdown> */}
             </Nav>
             <Form className="d-flex">
-              <Button variant="primary" className="btn-get-luca">
-                Get Luca
-              </Button>
+              <Link href="/#get-luca">
+                <Button variant="primary" className="btn-get-luca">
+                  Get Luca
+                </Button>
+              </Link>
 
               <div className="showPlay mt-5 d-block d-md-none">
                 <div>

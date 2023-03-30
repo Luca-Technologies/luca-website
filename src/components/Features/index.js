@@ -71,7 +71,7 @@ const Style = styled.div`
 export default function index() {
   return (
     <Style>
-      <section className="main-box container" data-aos="fade-up">
+      <section id="features" className="main-box container" data-aos="fade-up">
         <div className="row main-container mx-auto">
           <div className="mirror sm:hidden">
             <Image src={Side} alt="" objectFit={"contain"} />

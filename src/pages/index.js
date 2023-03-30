@@ -58,6 +58,7 @@ export default function Home() {
         title="Do more with your Business. Get Luca today"
         showAppStoreButtons={true}
         className="pb-0"
+        id="get-luca"
         description="Download the Luca app today and begin your business growth journey like a champ!"
         image={DownloadAppImage}
       />

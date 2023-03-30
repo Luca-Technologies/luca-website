@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from "react";
+import Link from "next/link";
 //
 import TitleSection from "../TitleSection";
 import { FAQs } from "../../Data/index";
@@ -27,7 +28,11 @@ const Style = styled.div`
 export default function index({}) {
   return (
     <Style>
-      <section className="main-box container relative" data-aos="fade-up">
+      <section
+        id="faqs"
+        className="main-box container relative"
+        data-aos="fade-up"
+      >
         <div className="row faq-points">
           <div className="flex text-center justify-center">
             <TitleSection
@@ -38,9 +43,14 @@ export default function index({}) {
           </div>
           <FaqItems />
 
-          <h6 style={{ marginTop: 40 }} className="text-center  cursor-pointer">
-            See all FAQs
-          </h6>
+          <Link href="/faqs">
+            <h6
+              style={{ marginTop: 40 }}
+              className="text-center  cursor-pointer"
+            >
+              See all FAQs
+            </h6>
+          </Link>
         </div>
       </section>
     </Style>

@@ -13,12 +13,14 @@ export default function index({
   image,
   showAppStoreButtons,
   className,
+  id,
 }) {
   return (
     <Style>
       <section
         className={`pt-[150px] sm:pt-10 ${className}`}
         data-aos="fade-up"
+        id={id}
       >
         <div className="container">
           <div className="flex md:flex-col justify-between">
