@@ -9,4 +9,8 @@ module.exports = withReactSvg({
 });
 module.exports = {
   reactStrictMode: true,
+  images: {
+    loader: "akamai",
+    path: "",
+  },
 };
