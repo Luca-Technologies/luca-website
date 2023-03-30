@@ -192,7 +192,9 @@ export default function index() {
           </div>
           <hr />
           <div className="text-center mt-5">
-            <p className="mb-0 pb-3">© 2022 Luca. All rights reserved.</p>
+            <p className="mb-0 pb-3">
+              © {new Date().getFullYear()} Luca. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
