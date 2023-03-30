@@ -64,6 +64,7 @@ const FaqItems = () => {
       {FAQs.map((item, index) => (
         <FaqSingleItem
           title={item.title}
+          key={index}
           description={item.description}
           isOpen={isActive === index}
           duration={index}
