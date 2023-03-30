@@ -1,10 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import HeaderImage from "../../Assets/Images/headerImage.png";
-import GooglePlay from "../../Assets/Images/Elements/Buttons/Market/Google Play.png";
-import GooglePlayNew from "../../Assets/Images/button1.svg";
-import AppStoreNew from "../../Assets/Images/button2.svg";
-import AppStore from "../../Assets/Images/Elements/Buttons/Market/App Store.png";
+import AppStoreButtons from "../AppStoreButtons";
 
 import styled from "styled-components";
 
@@ -15,9 +10,6 @@ const Style = styled.div`
   padding-top: 5rem;
   .header .lucas-image-home {
     width: 90%;
-  }
-  .title-text {
-    color: var(--secondary-color) !important;
   }
   .store-buttons {
     margin: 0 auto;
@@ -103,21 +95,12 @@ export default function index({ h1Text, buttonToogle }) {
         <div className="container">
           <div className="row justify-content-center align-items-center min-h-[300px]">
             <div data-aos="fade-down">
-              <h1 className="mb-3 mb-md-4 title-text">{h1Text}</h1>
+              <h1 className="mb-3 mb-md-4 title-text !text-secondaryColor">
+                {h1Text}
+              </h1>
               <div className="pe-md-4"></div>
               {!buttonToogle ? (
-                <div
-                  className="d-flex justify-content-center justify-content-md-start align-items-center store-buttons"
-                  data-aos="fade-right"
-                  data-aos-duration="1000"
-                >
-                  <button className="mr-3">
-                    <Image src={GooglePlayNew} alt="" className="img-fluid" />
-                  </button>
-                  <button>
-                    <Image src={AppStoreNew} alt="" className="img-fluid" />
-                  </button>
-                </div>
+                <AppStoreButtons />
               ) : (
                 <div>
                   <ul>

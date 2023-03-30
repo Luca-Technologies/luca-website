@@ -1,15 +1,18 @@
+import styled from "styled-components";
 import React from "react";
 import Image from "next/image";
+//
 import Side from "../../Assets/Images/side.png";
 import GetReadyImg from "../../Assets/Images/get-ready-img.svg";
-import styled from "styled-components";
+import GetReadyStyleImg from "../../Assets/Images/get-ready-style.svg";
+import TitleSection from "../TitleSection";
 
 const Style = styled.div`
   .main-box {
     background: var(--primary-color);
     box-shadow: 0px -9px 250px 4px rgba(1, 196, 253, 0.41);
     border-radius: 30px;
-    position: relative;
+    max-height: 800px;
   }
   .title-section {
     max-width: 300px;
@@ -20,10 +23,7 @@ const Style = styled.div`
     bottom: -56px;
     z-index: 0;
   }
-  .mirror img {
-    width: 90% !important;
-    left: -71px !important;
-  }
+
   .features {
     color: #01b5ec;
     font-size: 15px;
@@ -31,18 +31,39 @@ const Style = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
-  .happy {
-    position: absolute !important;
-    top: 0;
-    right: 0;
-  }
   .title-image {
     display: flex;
     justify-content: space-between;
   }
-  @media (max-width: 768px) {
+  .main-container {
+    padding: 3rem;
+  }
+  @media (max-width: 868px) {
     h1 {
       text-align: left;
+    }
+    .title-image {
+      flex-direction: column;
+    }
+    .main-container {
+      padding: 0;
+    }
+  }
+  @media (max-width: 568px) {
+    h1 {
+      text-align: left;
+    }
+    .main-box {
+      max-height: inherit;
+    }
+    .features {
+      grid-template-columns: 1fr;
+    }
+    .title-image {
+      flex-direction: column;
+    }
+    .main-container {
+      padding: 0;
     }
   }
 `;
@@ -51,28 +72,35 @@ export default function index() {
   return (
     <Style>
       <section className="main-box container" data-aos="fade-up">
-        <div className="row p-5">
-          <div className="mirror">
+        <div className="row main-container mx-auto">
+          <div className="mirror sm:hidden">
             <Image src={Side} alt="" objectFit={"contain"} />
           </div>
-          <div className="row">
+          <div className="absolute sm:relative top-0 z-0 w-[400px]  h-[100px] sm:hidden">
+            <Image src={GetReadyStyleImg} alt="" objectFit={"contain"} />
+          </div>
+          <div className="row z-10">
             <div className="title-image">
-              <div className="title-section">
-                <h3 className="mb-3 text-white">
-                  Get ready to grow <br />
-                  your business
-                </h3>
-                <p className="mb-5 text-white">
-                  No more credit sales records in a notebook. All this so that
-                  you can make better business decisions.
-                </p>
-              </div>
+              <TitleSection
+                isWhiteTheme={true}
+                title="Get ready to grow your business"
+                description="No more credit sales records in a notebook. All this so that
+                you can make better business decisions."
+              />
 
-              <div className="" data-aos="fade-left" data-aos-duration="1000">
-                <Image src={GetReadyImg} className="" alt="" />
+              <div
+                className="w-[400px] sm:w-auto"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                <Image src={GetReadyImg} alt="" objectFit={"contain"} />
               </div>
             </div>
-            <div className="features">
+            <div
+              className="features !-mt-[400px] relative"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <FeatureItem
                 title="Something"
                 description="No more credit sales records in a notebook. All this so that you can make better business decisions"
@@ -103,7 +131,7 @@ const StyleFeature = styled.div`
   place-content: flex-end;
 `;
 const FeatureItem = ({ title, description }) => (
-  <div data-aos="fade-up" data-aos-duration="100">
+  <div>
     <StyleFeature>
       <div className="text-white p-4">
         <h6 className="me-3 mb-2 text-white">{title}</h6>

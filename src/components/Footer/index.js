@@ -79,7 +79,7 @@ export default function index() {
                 Luca is a bookkeeping app, design to help small business keep
                 track of their financial and business activities.
               </p>
-              <div>
+              <div className="flex">
                 <span className="me-4">
                   <a
                     href="https://twitter.com/LucaAfrica"
@@ -118,57 +118,8 @@ export default function index() {
                 </span>
               </div>
             </div>
-            <div className="col-lg-2 mx-auto mb-4 mb-lg-0">
-              <h5 className="">Company</h5>
-              <ul>
-                <li>
-                  <Link href="/#features">
-                    <a>Features</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog">
-                    <a>Blog</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/faqs">
-                    <a>FAQ</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/joinourteam">
-                    <a>Join Our Team</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/termsofservice">
-                    <a>Terms of Services</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/privacypolicy">
-                    <a href="">Privacy Policy</a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div className="col-lg-2 mx-auto mb-4 mb-lg-0">
-              <h5>Contact</h5>
-              <ul>
-                <li>
-                  <a href="">Phone: 070 00 880 880</a>
-                </li>
-                {/* <li>
-                  <Link href="/faqs">
-                    <a>FAQ</a>
-                  </Link>
-                </li> */}
-                <li>
-                  <a href="">Enquiries: hello@luca.africa</a>
-                </li>
-              </ul>
-            </div>
+            <ProductSection />
+            <CompanySection />
             <div className="col-lg-3 mx-auto">
               <h5>Office</h5>
               <ul>
@@ -201,3 +152,69 @@ export default function index() {
     </Style>
   );
 }
+
+const ProductSection = () => (
+  <div className="col-lg-2 mx-auto mb-4 mb-lg-0">
+    <h5 className="">Product</h5>
+    <ul>
+      <li>
+        <Link href="/#features">
+          <a>Bookkeeping</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/blog">
+          <a>Debt Tracking</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/faqs">
+          <a>Inventory Management</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/joinourteam">
+          <a>Luca FirstStep</a>
+        </Link>
+      </li>
+    </ul>
+  </div>
+);
+
+const CompanySection = () => (
+  <div className="col-lg-2 mx-auto mb-4 mb-lg-0">
+    <h5 className="">Company</h5>
+    <ul>
+      <li>
+        <Link href="/#features">
+          <a>About Us</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/blog">
+          <a>Careers</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/faqs">
+          <a>Privacy Policy</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/joinourteam">
+          <a>Terms of Service</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/termsofservice">
+          <a>Press</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/privacypolicy">
+          <a href="">Privacy Policy</a>
+        </Link>
+      </li>
+    </ul>
+  </div>
+);

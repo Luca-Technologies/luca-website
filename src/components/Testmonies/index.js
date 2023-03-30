@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Slider from "react-slick";
+import styled from "styled-components";
 
+import TitleSection from "../TitleSection";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styled from "styled-components";
+
 const Style = styled.div`
   .slick-slide + div {
     margin: 0 1rem;
@@ -25,16 +26,15 @@ const Style = styled.div`
     color: #01b5ec !important;
   }
   .card {
-    border: 3px solid #effbff;
-
     border-radius: 25px;
+    border: none;
     padding: 5px;
-    /* 
+    /*
  border: none;
     box-shadow: 0 0 25px rgb(0 0 0 / 6%); */
   }
   .card-body {
-    padding: 5px 5px;
+    padding: 0;
   }
   .testi {
     letter-spacing: 2px;
@@ -44,7 +44,9 @@ const Style = styled.div`
     border: none !important;
   }
   .list p {
-    font-size: 12px !important;
+    font-size: 14px !important;
+    line-height: 1.5;
+    color: var(--secondary-color);
     text-align: left;
   }
   .imageWrapper {
@@ -59,8 +61,9 @@ const Style = styled.div`
     width: 100%;
   }
   .name {
-    letter-spacing: 1px;
+    margin-top: 12px;
     color: #000000;
+    text-transform: capitalize !important;
 
     mix-blend-mode: normal;
     opacity: 0.5;
@@ -137,10 +140,9 @@ export default function index({ data }) {
       <section className="Testimonials">
         <div className="container-fluid">
           <div className="text-center">
-            <p className="mb-4 text-uppercase text-center testi">
-              Testimonials
-            </p>
-            <h2 className="mb-5 px-1">What our customers says</h2>
+            <div className="flex justify-center">
+              <TitleSection title="What users say" />
+            </div>
 
             <div className="list">
               <div className="row justify-content-center align-items-center h-100">
@@ -162,7 +164,7 @@ export default function index({ data }) {
                             </div>
                             <div className="review">
                               <p className="m-0 ">{item.review}</p>
-                              <p className="mb-0 text-uppercase name">
+                              <p className="mb-0 capitalize name">
                                 {item.name}
                               </p>
                             </div>
