@@ -16,6 +16,7 @@ export default function index() {
       >
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://play.google.com/store/apps/details?id=com.falcon.luca"
           className="mr-3"
         >
@@ -23,6 +24,7 @@ export default function index() {
         </a>
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://apps.apple.com/ng/app/luca-easy-bookkeeping-app/id1607814067"
         >
           <Image src={AppStoreNew} alt="" className="img-fluid" />
