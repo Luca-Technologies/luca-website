@@ -9,6 +9,7 @@ import { Testimonies } from "../Data/index";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import ManagingComp from "../components/ManagingComp";
+import Features from "../components/Features";
 import UpgradeComp from "../components/UpgradeComp";
 import DesignComp from "../components/DesignComp";
 import Testmonies from "../components/Testmonies";
@@ -29,6 +30,7 @@ export default function Home() {
         h1Text="The simplest finance tool for small businesses"
         buttomBorder
       />
+      <Features />
       <ManagingComp />
       <UpgradeComp />
       <DesignComp />
