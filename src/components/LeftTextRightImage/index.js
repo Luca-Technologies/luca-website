@@ -24,7 +24,7 @@ export default function index({
       >
         <div className="container">
           <div className="flex md:flex-col justify-between">
-            <div className="sm:mb-10">
+            <div className="sm:mb-10 sm:mx-auto">
               <TitleSection title={title} description={description} />
               {/* show app store buttons */}
               {showAppStoreButtons === true && (
