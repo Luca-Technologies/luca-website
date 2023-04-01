@@ -32,6 +32,20 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-MBXQZ0YN5X"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MBXQZ0YN5X');
+      `,
+          }}
+        ></script>
         <link rel="icon" href="/appIcon.svg" />
       </Head>
       <Component {...pageProps} />
