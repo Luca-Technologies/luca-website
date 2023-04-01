@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 //import GooglePlay from "../../Assets/Images/Elements/Buttons/Market/Google Play.png";
-import Logo from "../../Assets/Images/Logo.png";
+import Logo from "../../Assets/Images/logo-white.svg";
 // import PhoneImage from "../../Assets/Images/phone1.png";
 import styled from "styled-components";
 // import { IolgCheckmark } from "react-icons/io";
@@ -32,11 +32,18 @@ const Style = styled.div`
     opacity: 0.5;
     line-height: 25px;
   }
+  footer strong {
+    color: white !important;
+  }
   footer h5 {
     color: #ffffff;
     margin-bottom: 10px;
   }
-  footer a {
+  .address {
+    padding-top: 0;
+  }
+  footer a,
+  .address {
     font-size: 13px;
     color: #ffffff;
     opacity: 0.5;
@@ -120,26 +127,7 @@ export default function index() {
             </div>
             <ProductSection />
             <CompanySection />
-            <div className="col-lg-3 mx-auto">
-              <h5>Office</h5>
-              <ul>
-                <li>
-                  <a href="">
-                    Address:
-                    <br />
-                    Nigeria
-                    <br />
-                    23 Adekunle Fajuyi Way, Ikeja GRA, Lagos
-                    <br />
-                    USA
-                    <br />
-                    21818 Craggview St, Suite 201
-                    <br />
-                    Chatsworth, CA 91311
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <ReachUs />
           </div>
           <hr />
           <div className="text-center mt-5">
@@ -214,6 +202,38 @@ const CompanySection = () => (
         <Link href="/privacypolicy">
           <a href="">Privacy Policy</a>
         </Link>
+      </li>
+    </ul>
+  </div>
+);
+
+const ReachUs = () => (
+  <div className="col-lg-3 mx-auto">
+    <h5>Reach Us</h5>
+    <ul>
+      <li>
+        <span className="address">Office Address:</span>
+        <br />
+        <br />
+        <address>
+          <strong className="text-[13px]">Nigeria</strong>
+          <br />
+          <div className="address">
+            23 Adekunle Fajuyi Way, <br />
+            Ikeja GRA, Lagos
+          </div>
+        </address>
+        <address>
+          <strong className="text-[13px]">USA</strong>
+          <div className="address">
+            21818 Craggview St, <br />
+            Suite 201 Chatsworth, <br />
+            CA 91311
+          </div>
+        </address>
+        0817 283 4482
+        <br />
+        hello@luca.africa
       </li>
     </ul>
   </div>
