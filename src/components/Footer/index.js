@@ -41,6 +41,7 @@ const Style = styled.div`
   }
   .address {
     padding-top: 0;
+    line-height: 2;
   }
   footer a,
   .address {

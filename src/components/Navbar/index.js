@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Container,
-  Form,
-  Nav,
-  Navbar,
-  NavDropdown,
-} from "react-bootstrap";
-import { HashLink } from "react-router-hash-link";
-import styles from "../../styles/Navbar.module.css";
+import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
 //import "../styles/globals.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -126,7 +117,7 @@ export default function Index() {
               <Link href="/contact">
                 <a className="nav-link">Contact us</a>
               </Link>
-              <Link href="/contact">
+              <Link href="/first-step">
                 <a className="special-nav-link">First Step With Luca</a>
               </Link>
               {/* <Nav.Link href="#pricing">FAQs</Nav.Link> */}
