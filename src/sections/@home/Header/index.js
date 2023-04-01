@@ -1,5 +1,5 @@
 import React from "react";
-import AppStoreButtons from "../AppStoreButtons";
+import AppStoreButtons from "../../../components/AppStoreButtons";
 
 import styled from "styled-components";
 

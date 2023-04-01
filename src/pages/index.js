@@ -6,8 +6,8 @@ import { useState } from "react";
 import { Testimonies } from "../Data/index";
 
 import Navbar from "../components/Navbar";
-import Header from "../components/Header";
-import Features from "../components/Features";
+import Header from "../sections/@home/Header";
+import Features from "../sections/@home/Features";
 import LeftTextRightImage from "../components/LeftTextRightImage";
 import Testmonies from "../components/Testmonies";
 import Cookies from "../components/cookies";
