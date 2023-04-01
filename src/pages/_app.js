@@ -32,20 +32,20 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-MBXQZ0YN5X"
-          strategy="afterInteractive"
-        />
-        <Script id="google-tag-manager" strategy="afterInteractive">
-          {`
+        <link rel="icon" href="/appIcon.svg" />
+      </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-MBXQZ0YN5X"
+        strategy="afterInteractive"
+      />
+      <Script id="google-tag-manager" strategy="afterInteractive">
+        {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-MBXQZ0YN5X');
       `}
-        </Script>
-        <link rel="icon" href="/appIcon.svg" />
-      </Head>
+      </Script>
       <Component {...pageProps} />
       {/* <GetLuca /> */}
     </div>
