@@ -6,9 +6,9 @@ import { useState } from "react";
 import { Testimonies } from "../../Data/index";
 
 import Navbar from "../../components/Navbar";
-import Header from "../../components/Header";
-import FeaturesFirstStep from "../../components/FeaturesFirstStep";
-import GoodHands from "../../components/GoodHands";
+import Header from "../../sections/@firstStep/Header";
+import FeaturesFirstStep from "../../sections/@firstStep/FeaturesFirstStep";
+import GoodHands from "../../sections/@firstStep/GoodHands";
 import SimpleAffordable from "../../components/SimpleAffordable";
 import Testmonies from "../../components/Testmonies";
 import HeadComp from "../../components/MetaData";
@@ -25,7 +25,7 @@ export default function Home() {
 
       <Navbar />
       <Header
-        h1Text="The Simplest Finance and Bookkepping Tool for Your Business"
+        h1Text="Take the First Step. Register your business with CAC."
         buttomBorder
       />
       <FeaturesFirstStep />

@@ -2,9 +2,9 @@ import styled from "styled-components";
 import React from "react";
 import Image from "next/image";
 //
-import TitleSection from "../TitleSection";
+import TitleSection from "../../../components/TitleSection";
 
-import GoodHandImage from "./../../Assets/Images/good-hand-img.svg";
+import GoodHandImage from "../../../Assets/Images/good-hand-img.svg";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const Style = styled.div``;

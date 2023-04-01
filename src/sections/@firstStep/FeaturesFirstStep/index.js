@@ -2,10 +2,9 @@ import styled from "styled-components";
 import React from "react";
 import Image from "next/image";
 //
-import Side from "../../Assets/Images/side.png";
-import GetReadyImg from "../../Assets/Images/get-ready-img.svg";
-import GetReadyStyleImg from "../../Assets/Images/get-ready-style.svg";
-import TitleSection from "../TitleSection";
+import Side from "../../../Assets/Images/side.png";
+import GetReadyStyleImg from "../../../Assets/Images/get-ready-style.svg";
+import TitleSection from "../../../components/TitleSection";
 
 const Style = styled.div`
   .main-box {
