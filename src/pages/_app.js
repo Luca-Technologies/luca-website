@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Script from "next/script";
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
@@ -31,20 +32,18 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <script
-          async
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-MBXQZ0YN5X"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+          strategy="afterInteractive"
+        />
+        <Script id="google-tag-manager" strategy="afterInteractive">
+          {`
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-MBXQZ0YN5X');
-      `,
-          }}
-        ></script>
+      `}
+        </Script>
         <link rel="icon" href="/appIcon.svg" />
       </Head>
       <Component {...pageProps} />
