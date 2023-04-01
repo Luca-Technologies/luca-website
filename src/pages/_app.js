@@ -3,7 +3,6 @@ import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import GetLuca from "../components/GetLuca";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
@@ -49,7 +48,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/appIcon.svg" />
       </Head>
       <Component {...pageProps} />
-      <GetLuca />
+      {/* <GetLuca /> */}
     </div>
   );
 }

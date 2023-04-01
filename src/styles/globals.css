@@ -296,3 +296,8 @@ h2 {
 #loom-companion-mv3{
   display: none;
 }
+
+.row>*{
+  margin-left: auto;
+  margin-right: auto;
+}
