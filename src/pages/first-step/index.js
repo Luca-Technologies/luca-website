@@ -7,8 +7,9 @@ import { Testimonies } from "../../Data/index";
 
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
-import Features from "../../components/Features";
+import FeaturesFirstStep from "../../components/FeaturesFirstStep";
 import GoodHands from "../../components/GoodHands";
+import SimpleAffordable from "../../components/SimpleAffordable";
 import Testmonies from "../../components/Testmonies";
 import HeadComp from "../../components/MetaData";
 import FAQ from "../../components/FAQ";
@@ -27,8 +28,9 @@ export default function Home() {
         h1Text="The Simplest Finance and Bookkepping Tool for Your Business"
         buttomBorder
       />
-      <Features />
+      <FeaturesFirstStep />
       <GoodHands />
+      <SimpleAffordable />
       <FAQ />
       <Testmonies data={Testimonies} />
 
