@@ -713,7 +713,7 @@
             (0, f.jsx)(o.Z, {}),
             (0, f.jsx)(c.Z, {
               h1Text:
-                "The Simplest Finance and Bookkeping Tool for Your Business",
+                "The Simplest Finance and Bookkeeping Tool for Your Business",
               buttomBorder: !0,
             }),
             (0, f.jsx)(b, {}),

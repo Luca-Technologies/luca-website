@@ -30,7 +30,7 @@ export default function Home() {
 
       <Navbar />
       <Header
-        h1Text="The Simplest Finance and Bookkeping Tool for Your Business"
+        h1Text="The Simplest Finance and Bookkeeping Tool for Your Business"
         buttomBorder
       />
       <Features />

@@ -99,7 +99,7 @@ export default function index() {
                 </span>
                 <span className="me-4">
                   <a
-                    href="https://instagram.com/lucaheadquaters?utm_medium=copy_link"
+                    href="https://www.instagram.com/lucaafricahq/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -147,7 +147,7 @@ const ProductSection = () => (
     <h5 className="">Product</h5>
     <ul>
       <li>
-        <Link href="/#bookkeping">
+        <Link href="/#Bookkeeping">
           <a>Bookkeeping</a>
         </Link>
       </li>
