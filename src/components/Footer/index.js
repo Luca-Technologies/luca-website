@@ -147,22 +147,22 @@ const ProductSection = () => (
     <h5 className="">Product</h5>
     <ul>
       <li>
-        <Link href="/#features">
+        <Link href="/#bookkeping">
           <a>Bookkeeping</a>
         </Link>
       </li>
       <li>
-        <Link href="/blog">
+        <Link href="/#debt-tracking">
           <a>Debt Tracking</a>
         </Link>
       </li>
       <li>
-        <Link href="/faqs">
+        <Link href="/#inventory-management">
           <a>Inventory Management</a>
         </Link>
       </li>
       <li>
-        <Link href="/joinourteam">
+        <Link href="/first-step">
           <a>Luca FirstStep</a>
         </Link>
       </li>
@@ -179,23 +179,18 @@ const CompanySection = () => (
           <a>About Us</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/blog">
           <a>Careers</a>
         </Link>
-      </li>
+      </li> */}
       <li>
-        <Link href="/faqs">
-          <a>Privacy Policy</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/joinourteam">
+        <Link href="/termsofservice">
           <a>Terms of Service</a>
         </Link>
       </li>
       <li>
-        <Link href="/termsofservice">
+        <Link href="/ourblog">
           <a>Press</a>
         </Link>
       </li>
@@ -222,6 +217,8 @@ const ReachUs = () => (
           <div className="address">
             23 Adekunle Fajuyi Way, <br />
             Ikeja GRA, Lagos
+            <br />
+            0700 0880 880
           </div>
         </address>
         <address>

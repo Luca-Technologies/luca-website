@@ -38,16 +38,19 @@ export default function Home() {
         title="Keep track of your business finances"
         description="Track every single Naira that your business makes and spends. Stay on top of your business finances by understanding your cash flow and financial health"
         image={ComponentImage}
+        id="bookkeeping"
       />
       <LeftTextRightImage
         title="Manage debts from your customers"
         description="Know who owes you money, and send prompt reminders to your debtors with the Luca debt tracker."
         image={ManageDebtImage}
+        id="debt-tracking"
       />
       <LeftTextRightImage
         title="Inventory Management like the pros do"
         description="Log your current inventory into the Luca App to manage your stock easily. Just add stock, we’ll do the rest."
         image={InventoryManagementImage}
+        id="inventory-management"
       />
       <FAQ />
       <Testmonies data={Testimonies} />
