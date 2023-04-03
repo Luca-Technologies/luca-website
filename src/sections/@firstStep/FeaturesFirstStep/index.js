@@ -93,15 +93,11 @@ export default function index() {
               data-aos-duration="1000"
             >
               <FeatureItem
-                title="Something"
+                title="Save Time"
                 description="No more credit sales records in a notebook. All this so that you can make better business decisions"
               />
               <FeatureItem
-                title="Something else"
-                description="No more credit sales records in a notebook. All this so that you can make better business decisions"
-              />
-              <FeatureItem
-                title="The third else"
+                title="Detailed Business Insights"
                 description="No more credit sales records in a notebook. All this so that you can make better business decisions"
               />
             </div>

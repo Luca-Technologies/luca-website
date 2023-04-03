@@ -28,7 +28,7 @@ const Style = styled.div`
     color: #01b5ec;
     font-size: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
   .title-image {
@@ -102,16 +102,12 @@ export default function index() {
               data-aos-duration="1000"
             >
               <FeatureItem
-                title="Something"
-                description="No more credit sales records in a notebook. All this so that you can make better business decisions"
+                title="Save Time"
+                description="Efficiently track your business transactions. Spend less time on paperwork and more time growing your business"
               />
               <FeatureItem
-                title="Something else"
-                description="No more credit sales records in a notebook. All this so that you can make better business decisions"
-              />
-              <FeatureItem
-                title="The third else"
-                description="No more credit sales records in a notebook. All this so that you can make better business decisions"
+                title="Detailed Business Insights"
+                description="Generate reports to gain deep insights into your financial data in real-time, so you can make informed decisions"
               />
             </div>
           </div>
