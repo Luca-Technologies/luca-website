@@ -83,22 +83,26 @@ export default function index() {
             <div className="title-image">
               <TitleSection
                 isWhiteTheme={true}
-                title="Start with the basics"
-                description="No paperwork or legal headaches. Apply to register your small business and we will get your cetificate delivered."
+                title="We dey for you"
+                description="We do all the hard work so that you can focus on what you do best - growing your business.."
               />
             </div>
             <div
-              className="features  relative"
+              className="features relative mt-20"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
               <FeatureItem
-                title="Save Time"
-                description="No more credit sales records in a notebook. All this so that you can make better business decisions"
+                title="Simple Registration"
+                description="Registering your business with CAC is easy with Luca! Provide some basic information about your business and we take care of the rest."
               />
               <FeatureItem
-                title="Detailed Business Insights"
-                description="No more credit sales records in a notebook. All this so that you can make better business decisions"
+                title="Affordable Pricing"
+                description="We offer a budget-friendly pricing for business registration, so you can save money while still getting top-quality service. "
+              />
+              <FeatureItem
+                title="Expert Support"
+                description="Our team of friendly experts is always  dedicated to ensuring your business is registered smoothly and stress-free."
               />
             </div>
           </div>
@@ -115,7 +119,7 @@ const StyleFeature = styled.div`
 const FeatureItem = ({ title, description }) => (
   <div>
     <StyleFeature>
-      <div className="bg-white bg-opacity-50 w-full h-[150px] rounded-md mb-3"></div>
+      <div className="bg-white bg-opacity-50 w-[50px] h-[50px] rounded-md mb-3"></div>
       <div className="text-white">
         <h6 className="me-3 mb-2 text-white">{title}</h6>
         {description}

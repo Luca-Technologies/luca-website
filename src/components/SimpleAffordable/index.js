@@ -24,7 +24,7 @@ export default function index() {
             <TitleSection
               isFullWidth={true}
               title="Simple Affordable"
-              description="Seamlessly register your business with Corporate Affairs Commission (CAC) directly from the Luca App"
+              description="Ready to register your business with CAC? Create an account with Luca today and take the first step towards building a successful business!"
             />
             <div className="mt-5 ">
               <FeatureItems
