@@ -23,9 +23,9 @@ export default function index({ h1Text }) {
             <div className="sm:mb-10 sm:mx-auto max-w-[520px] sm:mt-10">
               <h1 className="mb-3 mb-md-4 !text-secondaryColor">{h1Text}</h1>
               <p className="text-secondaryColor sm:text-center">
-                No paperwork or legal headaches. Apply to register your small
-                business and we will get your certificate delivered to your
-                email in days. All for N20,000
+                Give your business legal recognition by registering with the CAC
+                (Corporate Affairs Commission). Luca takes the hassle out of the
+                registration process
               </p>
             </div>
             <div

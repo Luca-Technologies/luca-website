@@ -28,7 +28,7 @@ export default function index() {
             />
             <div className="mt-5 ">
               <FeatureItems
-                price="20,000"
+                price="15,000"
                 items={[
                   "Sole Proprietorship Registration",
                   "7 business-day delivery",
