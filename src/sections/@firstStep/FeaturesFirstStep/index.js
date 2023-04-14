@@ -1,10 +1,14 @@
 import styled from "styled-components";
 import React from "react";
 import Image from "next/image";
+import { MdEditDocument } from "react-icons/md";
 //
 import Side from "../../../Assets/Images/side.png";
 import GetReadyStyleImg from "../../../Assets/Images/get-ready-style.svg";
 import TitleSection from "../../../components/TitleSection";
+import Md1Support from "../../../Assets/Images/mdi_support.svg";
+import ImageNaira from "../../../Assets/Images/naira.svg";
+import ImageEdit from "../../../Assets/Images/edit-icon.svg";
 
 const Style = styled.div`
   .main-box {
@@ -94,14 +98,17 @@ export default function index() {
             >
               <FeatureItem
                 title="Simple Registration"
+                icon={ImageEdit}
                 description="Registering your business with CAC is easy with Luca! Provide some basic information about your business and we take care of the rest."
               />
               <FeatureItem
                 title="Affordable Pricing"
+                icon={ImageNaira}
                 description="We offer a budget-friendly pricing for business registration, so you can save money while still getting top-quality service. "
               />
               <FeatureItem
                 title="Expert Support"
+                icon={Md1Support}
                 description="Our team of friendly experts is always  dedicated to ensuring your business is registered smoothly and stress-free."
               />
             </div>
@@ -116,10 +123,14 @@ const StyleFeature = styled.div`
   display: grid;
   place-content: flex-end;
 `;
-const FeatureItem = ({ title, description }) => (
+const FeatureItem = ({ title, icon, description }) => (
   <div>
     <StyleFeature>
-      <div className="bg-white bg-opacity-50 w-[50px] h-[50px] rounded-md mb-3"></div>
+      {icon && (
+        <div className="bg-white grid place-items-center bg-opacity-50 w-[50px] h-[50px] rounded-md mb-3">
+          <Image src={icon} />
+        </div>
+      )}
       <div className="text-white">
         <h6 className="me-3 mb-2 text-white">{title}</h6>
         {description}

@@ -190,11 +190,6 @@ const CompanySection = () => (
         </Link>
       </li>
       <li>
-        <Link href="/ourblog">
-          <a>Press</a>
-        </Link>
-      </li>
-      <li>
         <Link href="/privacypolicy">
           <a href="">Privacy Policy</a>
         </Link>
