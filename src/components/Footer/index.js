@@ -224,9 +224,10 @@ const ReachUs = () => (
             CA 91311
           </div>
         </address>
-        0817 283 4482
-        <br />
-        hello@luca.africa
+
+        <address>
+          <div className="address">hello@luca.africa</div>
+        </address>
       </li>
     </ul>
   </div>
