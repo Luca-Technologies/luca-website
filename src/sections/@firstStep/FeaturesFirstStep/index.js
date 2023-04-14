@@ -128,7 +128,7 @@ const FeatureItem = ({ title, icon, description }) => (
     <StyleFeature>
       {icon && (
         <div className="bg-white grid place-items-center bg-opacity-50 w-[50px] h-[50px] rounded-md mb-3">
-          <Image src={icon} />
+          <Image src={icon} width="25px" />
         </div>
       )}
       <div className="text-white">
