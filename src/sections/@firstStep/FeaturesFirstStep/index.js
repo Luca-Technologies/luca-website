@@ -87,7 +87,7 @@ export default function index() {
             <div className="title-image">
               <TitleSection
                 isWhiteTheme={true}
-                title="We dey for you"
+                title="We are here for you"
                 description="We do all the hard work so that you can focus on what you do best - growing your business.."
               />
             </div>

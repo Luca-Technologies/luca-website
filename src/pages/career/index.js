@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import CareerHeader from "../../components/CareerHeader";
 import Overview from "../../components/Overview";
 import Application from "../../components/Application";
-import Footer from "../../components/Footer copy";
 
 export default function Index() {
   const [toggle, setToggle] = useState(false);
@@ -18,7 +17,7 @@ export default function Index() {
         <Application />
       )}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
