@@ -23,7 +23,7 @@ export default function index() {
           <div className="sm:mb-10 sm:mx-auto text-center max-w-[300px] m-auto">
             <TitleSection
               isFullWidth={true}
-              title="Simple Affordable"
+              title="Simple. Affordable."
               description="Ready to register your business with CAC? Create an account with Luca today and take the first step towards building a successful business!"
             />
             <div className="mt-5 ">
