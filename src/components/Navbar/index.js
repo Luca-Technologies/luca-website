@@ -139,7 +139,7 @@ export default function Index() {
                 </NavDropdown.Item>
               </NavDropdown> */}
             </Nav>
-            <Form className="d-flex">
+            <Form>
               <Link href="/#get-luca">
                 <Button variant="primary" className="btn-get-luca">
                   Get Luca
