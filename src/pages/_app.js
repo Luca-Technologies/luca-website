@@ -6,6 +6,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 
+import TagManager from "react-gtm-module"
+
+const tagManagerArgs = {
+  gtmId: "GTM-KV265C3",
+}
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
@@ -29,12 +34,17 @@ function MyApp({ Component, pageProps }) {
       anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
     });
   }, []);
+
+  useEffect(() => {
+    TagManager.initialize(tagManagerArgs)
+  }, []);
+
   return (
     <div>
       <Head>
         <link rel="icon" href="/appIcon.svg" />
       </Head>
-      <Script
+      {/* <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-MBXQZ0YN5X"
         strategy="afterInteractive"
       />
@@ -45,7 +55,9 @@ function MyApp({ Component, pageProps }) {
       gtag('js', new Date());
       gtag('config', 'G-MBXQZ0YN5X');
       `}
-      </Script>
+      </Script> */}
+
+
       <Component {...pageProps} />
       {/* <GetLuca /> */}
     </div>
