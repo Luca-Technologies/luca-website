@@ -33,7 +33,7 @@ export default function index({ h1Text }) {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <Image src={BannerImage} alt="" />
+              <Image src={BannerImage} alt="Luca Africa BannerImage" />
             </div>
           </div>
         </div>
