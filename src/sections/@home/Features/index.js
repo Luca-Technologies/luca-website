@@ -74,10 +74,10 @@ export default function index() {
       <section id="features" className="main-box container" data-aos="fade-up">
         <div className="row main-container mx-auto">
           <div className="mirror sm:hidden">
-            <Image src={Side} alt="" objectFit={"contain"} />
+            <Image src={Side} alt="Luca Africa Side" objectFit={"contain"} />
           </div>
           <div className="absolute sm:relative top-0 z-0 w-[400px]  h-[100px] sm:hidden">
-            <Image src={GetReadyStyleImg} alt="" objectFit={"contain"} />
+            <Image src={GetReadyStyleImg} alt="Luca Africa GetReadyStyleImg" objectFit={"contain"} />
           </div>
           <div className="row z-10">
             <div className="title-image">
@@ -93,7 +93,7 @@ export default function index() {
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
-                <Image src={GetReadyImg} alt="" objectFit={"contain"} />
+                <Image src={GetReadyImg} alt="Luca Africa GetReadyImg" objectFit={"contain"} />
               </div>
             </div>
             <div

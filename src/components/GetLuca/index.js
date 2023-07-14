@@ -39,7 +39,7 @@ export default function index() {
       <div className="info d-flex align-items-center justify-content-between pt-2 px-3 d-block d-md-none">
         <div className="d-flex align-items-center">
           <div className="headerImage text-center">
-            <Image src={HeaderImage} alt="" />
+            <Image src={HeaderImage} alt="Luca Africa HeaderImage" />
           </div>
           <h4>LUCA</h4>
         </div>

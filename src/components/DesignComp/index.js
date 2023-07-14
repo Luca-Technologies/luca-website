@@ -29,7 +29,7 @@ export default function index() {
           <div className="row mx-md-5">
             <div className="col-md-6 order-3 order-md-0" data-aos="fade-right">
               <div>
-                <Image src={PhoneImage} alt="" />
+                <Image src={PhoneImage} alt="Luca Africa PhoneImage" />
               </div>
             </div>
             <div className="col-md-6 pt-6 order-0 order-md-3">
@@ -43,10 +43,10 @@ export default function index() {
               </p>
               <div className="d-flex" data-aos="fade-up" data-duration="1000">
                 <button className="mr-3">
-                  <Image src={GooglePlayNew} alt="" className="img-fluid" />
+                  <Image src={GooglePlayNew} alt="Luca Africa GooglePlayNew" className="img-fluid" />
                 </button>
                 <button>
-                  <Image src={AppStoreNew} alt="" className="img-fluid" />
+                  <Image src={AppStoreNew} alt="Luca Africa AppStoreNew" className="img-fluid" />
                 </button>
               </div>
             </div>

@@ -40,7 +40,7 @@ export default function index() {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <Image src={GoodHandImage} alt="" />
+              <Image src={GoodHandImage} alt="Luca Africa GoodHandImage" />
             </div>
           </div>
         </div>

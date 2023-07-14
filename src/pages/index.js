@@ -64,8 +64,6 @@ export default function Home() {
         image={DownloadAppImage}
       />
 
-      {/* <Testimonies1 /> */}
-
       <Footer />
     </div>
   );
