@@ -88,7 +88,7 @@ export default function Index() {
         <Container>
           <Link href="/">
             <a className="navbar-brand">
-              <Image src={Logo1} alt="" objectFit="cover" />
+              <Image src={Logo1} alt="Luca Africa" objectFit="cover" />
             </a>
           </Link>
           {/* <Navbar.Brand href="#home">
@@ -150,15 +150,14 @@ export default function Index() {
                 <div>
                   <div className="play d-flex">
                     <button className="mr-3">
-                      <Image src={GooglePlay} alt="" className="img-fluid" />
+                      <Image src={GooglePlay} alt="Luca Africa GooglePlay" className="img-fluid" />
                     </button>
                     <button>
-                      <Image src={AppStore} alt="" className="img-fluid" />
+                      <Image src={AppStore} alt="Luca Africa AppStore" className="img-fluid" />
                     </button>
                   </div>
                 </div>
 
-                {/* <Image src={NavbarImage} alt="" objectFit={"cover"} /> */}
               </div>
             </Form>
           </Navbar.Collapse>

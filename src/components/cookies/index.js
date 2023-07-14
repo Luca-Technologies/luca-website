@@ -81,7 +81,7 @@ export default function index({ handleCookies, cookies }) {
           <div className="modal_main d-flex flex-column flex-md-row align-items-center py-4 px-3 position-relative">
             <div className="modal_icon mr-3">
               <div className="iconWrapper d-none d-md-block">
-                <Image src={CookiesImage} alt="" width="70px" />
+                <Image src={CookiesImage} alt="Luca Africa" width="70px" />
               </div>
             </div>
             <div className="modal_body">

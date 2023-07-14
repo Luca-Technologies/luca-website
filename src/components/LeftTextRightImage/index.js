@@ -38,7 +38,7 @@ export default function index({
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <Image src={image} alt="" />
+              <Image src={image} alt="Luca Africa" />
             </div>
           </div>
         </div>

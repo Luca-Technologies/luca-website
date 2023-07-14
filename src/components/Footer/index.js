@@ -81,7 +81,7 @@ export default function index() {
           <div className="row">
             <div className="col-lg-4 mb-4 mb-lg-0">
               <div className="mb-3">
-                <Image src={Logo} alt="" />
+                <Image src={Logo} alt="Luca Africa Logo" />
               </div>
               <p className="pe-12 pe-xl-5">
                 Luca is a bookkeeping app, design to help small business keep

@@ -78,10 +78,10 @@ export default function index() {
       >
         <div className="row main-container mx-auto">
           <div className="mirror sm:hidden">
-            <Image src={Side} alt="" objectFit={"contain"} />
+            <Image src={Side} alt="Luca Africa Side" objectFit={"contain"} />
           </div>
           <div className="absolute sm:relative top-0 z-0 w-[400px]  h-[100px] sm:hidden">
-            <Image src={GetReadyStyleImg} alt="" objectFit={"contain"} />
+            <Image src={GetReadyStyleImg} alt="Luca Africa GetReadyStyleImg" objectFit={"contain"} />
           </div>
           <div className="container">
             <div className="title-image">

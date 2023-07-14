@@ -94,10 +94,8 @@ export default function index({
                         <div className="blog-main">
                           <div className="imageWrapperMain mb-3">
                             {blogMain[0] && (
-                              <Image src={blogMain[0]?.picture} alt="" />
+                              <Image src={blogMain[0]?.picture} alt="Luca Africa BlogMain" />
                             )}
-
-                            {/* <Image src={blogMain[0]?.picture} alt="" /> */}
                           </div>
                           <div className="">
                             <p className="mb-2 date">{blogMain[0]?.date}</p>
@@ -121,7 +119,7 @@ export default function index({
                             <a>
                               {item.picture && (
                                 <div className="imageWrapper mb-3">
-                                  <Image src={item?.picture} alt="" />
+                                  <Image src={item?.picture} alt="Luca Africa BlogImage" />
                                 </div>
                               )}
 
@@ -165,7 +163,7 @@ export default function index({
                   <Link href="/ourblog">
                     <a>
                       <div className="imageWrapper mb-3">
-                        {item?.picture && <Image src={item?.picture} alt="" />}
+                        {item?.picture && <Image src={item?.picture} alt="Luca Africa BlogImage" />}
                       </div>
                       <div>
                         <p className="mb-2 date">{item?.date}</p>

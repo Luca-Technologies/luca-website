@@ -52,7 +52,7 @@ export default function index({ setToggle, toggle }) {
             <div className="imageWrapper">
               <Link href="/">
                 <a className="nav-link">
-                  <Image src={Logo} alt="" className="img-fluid" />
+                  <Image src={Logo} alt="Luca Africa Logo" className="img-fluid" />
                 </a>
               </Link>
             </div>
