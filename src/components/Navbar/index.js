@@ -117,6 +117,9 @@ export default function Index() {
               <Link href="/contact">
                 <a className="nav-link">Contact us</a>
               </Link>
+              <Link href="https://blog.luca.africa/" target="_blank">
+                <a className="nav-link">Blog</a>
+              </Link>
               <Link href="/ambassadors">
                 <a className="nav-link">Ambassadors</a>
               </Link>
