@@ -1,7 +1,4 @@
-// import Image from "next/image";
 
-import { useState } from "react";
-// import styles from "../styles/Home.module.css";
 //data
 import { Testimonies } from "../../Data/index";
 
@@ -15,7 +12,6 @@ import HeadComp from "../../components/MetaData";
 import FAQ from "../../components/FAQ";
 
 import Footer from "../../components/Footer";
-// import Logo frr
 // images
 
 export default function Home() {

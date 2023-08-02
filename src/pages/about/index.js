@@ -1,7 +1,7 @@
 import React from "react";
 import HeadComp from "../../components/MetaData";
 import Navbar from "../../components/Navbar";
-import Header from "../../sections/@home/Header";
+import Header from "../../sections/@about/Header";
 import BrandMission from "../../components/BrandMission";
 import Testmonies from "../../components/Testmonies";
 import Footer from "../../components/Footer";
@@ -11,16 +11,16 @@ import { Testimonies } from "../../Data/index";
 export default function index() {
   return (
     <div>
-      <HeadComp title="The easiest and simplest way to manage your small business finances." />
+      <HeadComp title="About || Luca Africa" />
 
       <Navbar />
       <Header
-        h1Text="About Luca."
+        h1Text="Driving SME Growth in Africa"
         p1Text={
           <>
-            Luca is a simple and easy to use book-keeping tool for millions of
+            {/* Luca is a simple and easy to use book-keeping tool for millions of
             micro and small businesses in Africa. Access the application from
-            anywhere; sign-up and start using it in minutes.
+            anywhere; sign-up and start using it in minutes. */}
           </>
         }
         p2Text="Luca is a simple and easy to use book-keeping tool for millions of micro and small businesses in Africa. Access the application from anywhere; sign-up and start using it in minutes.
@@ -28,7 +28,7 @@ export default function index() {
         ImageLink={HeaderImage}
         buttomBorder
       />
-      <BrandMission />
+
       <Testmonies data={Testimonies} />
       <Footer />
     </div>

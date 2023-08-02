@@ -133,7 +133,7 @@ export default function index() {
           <hr />
           <div className="text-center mt-5">
             <p className="mb-0 pb-3">
-              © {new Date().getFullYear()} Luca. All rights reserved.
+              © {new Date().getFullYear()} Luca Technologies Limited. All rights reserved.
             </p>
           </div>
         </div>
@@ -175,15 +175,10 @@ const CompanySection = () => (
     <h5 className="">Company</h5>
     <ul>
       <li>
-        <Link href="/#features">
+        <Link href="/about">
           <a>About Us</a>
         </Link>
       </li>
-      {/* <li>
-        <Link href="/blog">
-          <a>Careers</a>
-        </Link>
-      </li> */}
       <li>
         <Link href="/termsofservice">
           <a>Terms of Service</a>
