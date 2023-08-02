@@ -20,14 +20,14 @@ export default function index() {
           href="https://play.google.com/store/apps/details?id=com.falcon.luca"
           className="mr-3"
         >
-          <Image src={GooglePlayNew} alt="" className="img-fluid" />
+          <Image src={GooglePlayNew} alt="Luca Africa GooglePlayNew" className="img-fluid" />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://apps.apple.com/ng/app/luca-easy-bookkeeping-app/id1607814067"
         >
-          <Image src={AppStoreNew} alt="" className="img-fluid" />
+          <Image src={AppStoreNew} alt="Luca Africa AppStoreNew" className="img-fluid" />
         </a>
       </div>
     </Style>

@@ -88,7 +88,7 @@ export default function Index() {
         <Container>
           <Link href="/">
             <a className="navbar-brand">
-              <Image src={Logo1} alt="" objectFit="cover" />
+              <Image src={Logo1} alt="Luca Africa" objectFit="cover" />
             </a>
           </Link>
           {/* <Navbar.Brand href="#home">
@@ -117,6 +117,12 @@ export default function Index() {
               <Link href="/contact">
                 <a className="nav-link">Contact us</a>
               </Link>
+              <a href="https://blog.luca.africa/" target="_blank" rel="noopener noreferrer">
+                <a className="nav-link">Blog</a>
+              </a>
+              <Link href="/ambassadors">
+                <a className="nav-link">Ambassadors</a>
+              </Link>
               <Link href="/first-step">
                 <a className="special-nav-link">First Step With Luca</a>
               </Link>
@@ -136,7 +142,7 @@ export default function Index() {
                 </NavDropdown.Item>
               </NavDropdown> */}
             </Nav>
-            <Form className="d-flex">
+            <Form>
               <Link href="/#get-luca">
                 <Button variant="primary" className="btn-get-luca">
                   Get Luca
@@ -147,15 +153,14 @@ export default function Index() {
                 <div>
                   <div className="play d-flex">
                     <button className="mr-3">
-                      <Image src={GooglePlay} alt="" className="img-fluid" />
+                      <Image src={GooglePlay} alt="Luca Africa GooglePlay" className="img-fluid" />
                     </button>
                     <button>
-                      <Image src={AppStore} alt="" className="img-fluid" />
+                      <Image src={AppStore} alt="Luca Africa AppStore" className="img-fluid" />
                     </button>
                   </div>
                 </div>
 
-                {/* <Image src={NavbarImage} alt="" objectFit={"cover"} /> */}
               </div>
             </Form>
           </Navbar.Collapse>

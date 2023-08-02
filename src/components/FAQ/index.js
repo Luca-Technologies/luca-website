@@ -25,7 +25,7 @@ const Style = styled.div`
   }
 `;
 
-export default function index({}) {
+export default function index({ }) {
   return (
     <Style>
       <section
@@ -85,17 +85,15 @@ const FaqSingleItem = ({ title, description, onClick, isOpen, duration }) => (
     <div className="flex justify-between w-full  p-3 items-center">
       <h6 className="text-secondaryColor">{title}</h6>
       <FaChevronRight
-        className={`text-secondaryColor transition-all ${
-          isOpen ? "rotate-90" : ""
-        }`}
+        className={`text-secondaryColor transition-all ${isOpen ? "rotate-90" : ""
+          }`}
       />
     </div>
     <div
-      className={`overflow-hidden transition-all border-t  ${
-        isOpen
+      className={`overflow-hidden transition-all border-t  ${isOpen
           ? "border-gray-200 translate-y-0"
           : "translate-y-[100px] h-0 border-transparent"
-      }`}
+        }`}
     >
       <div className="p-4">{description}</div>
     </div>

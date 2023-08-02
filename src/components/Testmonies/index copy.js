@@ -186,7 +186,7 @@ export default function index({ data }) {
                       <div className="card-body d-flex align-items-center">
                         <div className="d-flex">
                           <div className="mr-2 imageWrapper">
-                            <Image src={item.picture} alt="" />
+                            <Image src={item.picture} alt="Luca Africa TestimonyPicture" />
                           </div>
                           <div className="review">
                             <p className="">{item.review}</p>

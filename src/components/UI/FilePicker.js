@@ -258,7 +258,7 @@ function Filepicker({
                         />
                       </i>
                       {Image.type.includes("image") ? (
-                        <Image src={`${selectedImage}`} alt="" />
+                        <Image src={`${selectedImage}`} alt="Luca Africa selectedImage" />
                       ) : (
                         <div className="doc">
                           <FcDocument size={200} />

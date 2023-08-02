@@ -161,7 +161,7 @@ export default function index({ data }) {
                         <div>
                           <div className="border d-flex ">
                             <div className="imageWrapper mr-2 pt-2">
-                              <Image src={item.picture} alt="" />
+                              <Image src={item.picture} alt="Luca Africa TestimonyPicture" />
                             </div>
                             <div className="review">
                               <p className="m-0 ">{item.review}</p>

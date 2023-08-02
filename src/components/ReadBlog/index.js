@@ -217,7 +217,7 @@ export default function index() {
             </div>
             <div className="col-lg-8 mb-5 ">
               <div className="imageWrapperMain mb-5">
-                <Image src={ReadImage} alt="" />
+                <Image src={ReadImage} alt="Luca Africa ReadImage" />
               </div>
 
               <div>

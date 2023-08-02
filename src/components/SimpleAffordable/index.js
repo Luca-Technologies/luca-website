@@ -54,9 +54,8 @@ const FeatureItems = ({ price, items = [] }) => (
       {items.map((item, index) => (
         <p
           key={index}
-          className={`py-4 m-0 text-secondaryColor ${
-            index % 2 === 0 ? "" : "special-item"
-          }`}
+          className={`py-4 m-0 text-secondaryColor ${index % 2 === 0 ? "" : "special-item"
+            }`}
         >
           {item}
         </p>

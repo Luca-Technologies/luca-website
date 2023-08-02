@@ -109,10 +109,10 @@ export default function index() {
               </div>
               <div className="col-md-4" data-aos="fade-up">
                 <div className="d-none d-md-block">
-                  <Image src={PhoneImage} alt="" />
+                  <Image src={PhoneImage} alt="Luca Africa PhoneImage" />
                 </div>
                 <div className="d-block d-md-none show">
-                  <Image src={MobileImage} alt="" />
+                  <Image src={MobileImage} alt="Luca Africa MobileImage" />
                 </div>
               </div>
               <div className="col-md-4 pb-4" data-aos="fade-left">

@@ -235,92 +235,85 @@ export default function index() {
               data-aos="fade-right"
               data-aos-duration="100"
             >
-              <Image src={About1} alt="" />
+              <Image src={About1} alt="Luca Africa About1" />
             </div>
             <div
               className="brand brand2"
               data-aos="fade-right"
               data-aos-duration="400"
             >
-              <Image src={About2} alt="" />
+              <Image src={About2} alt="Luca Africa About2" />
             </div>
             <div
               className="brand brand3"
               data-aos="fade-right"
               data-aos-duration="600"
             >
-              <Image src={About3} alt="" />
+              <Image src={About3} alt="Luca Africa About3" />
             </div>
             <div
               className="brand brand4"
               data-aos="fade-down"
               data-aos-duration="800"
             >
-              <Image src={About4} alt="" />
+              <Image src={About4} alt="Luca Africa About4" />
             </div>
             <div
               className="brand brand5"
               data-aos="fade-down"
               data-aos-duration="800"
             >
-              <Image src={About5} alt="" />
+              <Image src={About5} alt="Luca Africa About5" />
             </div>
             <div
               className="brand brand6"
               data-aos="fade-down"
               data-aos-duration="1000"
             >
-              <Image src={About6} alt="" />
+              <Image src={About6} alt="Luca Africa About6" />
             </div>
             <div
               className="brand brand7"
               data-aos="fade-right"
               data-aos-duration="600"
             >
-              <Image src={About7} alt="" />
+              <Image src={About7} alt="Luca Africa About7" />
             </div>
             <div
               className="brand brand8"
               data-aos="fade-left"
               data-aos-duration="400"
             >
-              <Image src={About8} alt="" />
+              <Image src={About8} alt="Luca Africa About8" />
             </div>
             <div
               className="brand brand9"
               data-aos="fade-up"
               data-aos-duration="200"
             >
-              <Image src={About9} alt="" />
+              <Image src={About9} alt="Luca Africa About9" />
             </div>
             <div
               className="brand brand10"
               data-aos="fade-up"
               data-aos-duration="400"
             >
-              <Image src={About10} alt="" />
+              <Image src={About10} alt="Luca Africa About10" />
             </div>
             <div
               className="brand brand11"
               data-aos="fade-right"
               data-aos-duration="600"
             >
-              <Image src={About11} alt="" />
+              <Image src={About11} alt="Luca Africa About11" />
             </div>
             <div
               className="brand brand12"
               data-aos="zoom-in"
               data-aos-duration="800"
             >
-              <Image src={About12} alt="" />
+              <Image src={About12} alt="Luca Africa About12" />
             </div>
-            {/* <div
-              className="brand brand3"
-              data-aos="flip-left"
-              data-aos-duration="800"
-            >
-              <Image src={About12} alt="" />
-            </div> */}
           </div>
         </div>
       </section>
