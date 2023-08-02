@@ -108,9 +108,9 @@ export default function Index() {
             <Nav className="mx-auto" onClick={() => setToggle(false)}>
               <Nav.Link href="/#features">Features</Nav.Link>
               {/* <Nav.Link href="/about">About us</Nav.Link> */}
-              {/* <Link href="/about">
-                <a className="nav-link">About us</a>
-              </Link> */}
+              <Link href="/about">
+                <a className="nav-link">About Us</a>
+              </Link>
               <Link href="/#faqs">
                 <a className="nav-link">FAQs</a>
               </Link>
