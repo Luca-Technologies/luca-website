@@ -57,6 +57,10 @@ function MyApp({ Component, pageProps }) {
       `}
       </Script> */}
 
+      <Script id="mcjs">
+        {`!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2aa7b0ee0947f72b7fb00c459/272a4d199dd302016d9453b05.js");`}
+      </Script>
+
 
       <Component {...pageProps} />
       {/* <GetLuca /> */}
