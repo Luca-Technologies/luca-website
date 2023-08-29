@@ -166,6 +166,16 @@ const ProductSection = () => (
           <a>Luca FirstStep</a>
         </Link>
       </li>
+      <li>
+        <Link href="/ambassadors">
+          <a>Join Luca Ambassador</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/ambassador-manual">
+          <a>About Luca Ambassador</a>
+        </Link>
+      </li>
     </ul>
   </div>
 );
