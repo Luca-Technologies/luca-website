@@ -47,8 +47,8 @@ export default function index() {
                       </li>
                       <li>
                         Any transaction entered on behalf of Luca not expressly
-                        referred to in this agreement and done with the consent
-                        of Luca shall in no way be binding on Luca.
+                        referred to in this agreement and done without the
+                        consent of Luca shall in no way be binding on Luca.
                       </li>
                       <li>
                         Ambassadors are hereby prohibited from representing Luca
@@ -132,8 +132,8 @@ export default function index() {
                         Every merchant who signs up on the Luca platform will be
                         required to provide the referral code unique to the
                         Ambassador who referred. All Ambassadors are expected to
-                        communicate this with prospective
-                        customers(“Merchants”).
+                        communicate this with prospective customers
+                        (&quot;Merchants&quot;).
                       </li>
                       <li>
                         In any instance, where the referral code is missed, the
@@ -147,17 +147,17 @@ export default function index() {
                         shall be refunded if Luca determines in its sole
                         discretion that the Account was obtained as a result of
                         fraud, misrepresentation, misleading information, or
-                        other material departure from Luca&apos;s stated policies,
-                        practices or marketing positions as they may change from
-                        time to time.
+                        other material departure from Luca&apos;s stated
+                        policies, practices or marketing positions as they may
+                        change from time to time.
                       </li>
                       <li>
                         Any credit issued to any Merchant to resolve any issue
                         caused by Ambassador making any misleading, improper or
                         inaccurate representation, such as implying that the
                         Merchant may be given a price plan or discount that is
-                        not authorized in Luca&apos;s published price lists may be
-                        set off against any commission amounts owed to
+                        not authorized in Luca&apos;s published price lists may
+                        be set off against any commission amounts owed to
                         Ambassador under this Agreement.
                       </li>
                       <li>
@@ -224,19 +224,19 @@ export default function index() {
                         Ambassador Status&quot;.
                       </li>
                       <li>
-                        Additionally, you will receive N500 naira commission for
+                        Additionally, you will receive ₦500 naira commission for
                         each merchant who register their business with Corporate
                         Affairs Commission (CAC) using your referral code
                       </li>
                       <li>
-                        You will also earn a 3% commission on each merchant&apos;s
-                        subscription for the staff management module. For
-                        instance, if the total paid on Staff Management is
-                        N27,000; your earning in that month will be 3% x ₦81,000
-                        = ₦2,430
+                        You will also earn a 3% commission on each
+                        merchant&apos;s subscription for the staff management
+                        module. For instance, if the total paid on Staff
+                        Management is ₦27,000; your earning in that month will
+                        be 3% x ₦81,000 = ₦2,430
                       </li>
                       <li>
-                        As an ambassador, you earn an equivalent of N25 per
+                        As an ambassador, you earn an equivalent of ₦25 per
                         unique unit of stock taking (₦5,000 for 200 unique units
                         of stock taking, typically within a few hours). This
                         involves helping prospective new and existing merchants
@@ -253,8 +253,9 @@ export default function index() {
                       <li>
                         The term of this Agreement begins the first day of the
                         month following the execution of this Agreement by both
-                        parties (&quot;Effective Date&quot;) and continues except an
-                        occasion for termination based on 7c below occurs.
+                        parties (&quot;Effective Date&quot;) and continues
+                        except an occasion for termination based on 7c below
+                        occurs.
                       </li>
                       <li>
                         Either party may terminate this Agreement with or
@@ -278,15 +279,16 @@ export default function index() {
                             unsolicited messages, or messages which infringe any
                             third party&apos;s proprietary right, or any other
                             Irregular Marketing Activity. For the purpose of
-                            this agreement &quot;Irregular Marketing Activity” means
-                            any activity that constitutes a clear and material
-                            breach or is otherwise clearly and materially
-                            inconsistent with the terms of this Agreement or
-                            which in Luca&apos;s reasonable judgment, would harm
-                            Luca&apos;s reputation if it were publicly known.
-                            Irregular Marketing Activity includes without
-                            limitation those activities referred to in this
-                            Agreement as Irregular Marketing Activities.
+                            this agreement &quot;Irregular Marketing Activity”
+                            means any activity that constitutes a clear and
+                            material breach or is otherwise clearly and
+                            materially inconsistent with the terms of this
+                            Agreement or which in Luca&apos;s reasonable
+                            judgment, would harm Luca&apos;s reputation if it
+                            were publicly known. Irregular Marketing Activity
+                            includes without limitation those activities
+                            referred to in this Agreement as Irregular Marketing
+                            Activities.
                           </li>
                           <li>
                             immediately upon notice of any unethical conduct by
@@ -298,7 +300,7 @@ export default function index() {
                             to, be beneficial to the Ambassador;
                           </li>
                           <li>
-                          If the use of the Luca Services by Ambassador is
+                            If the use of the Luca Services by Ambassador is
                             deemed to be for any illegal purpose.
                           </li>
                         </ol>
@@ -338,15 +340,16 @@ export default function index() {
                       <li>
                         For purposes of this Agreement, &quot;Confidential
                         Information&quot; means information disclosed by Luca
-                        (&quot;Owner&quot;) to the Ambassador (&quot;Recipient&quot;) which relates
-                        to the subject matter of this Agreement, including, but
-                        not limited to customer, business and/or technical
-                        information and data, or which, although not related to
-                        such subject matter, is nevertheless disclosed. as a
-                        result of the parties&apos; discussions in that regard, and
-                        which, in any case, is disclosed by the Owner to the
-                        Recipient in a document or other medium deemed and/or
-                        marked “confidential”.
+                        (&quot;Owner&quot;) to the Ambassador
+                        (&quot;Recipient&quot;) which relates to the subject
+                        matter of this Agreement, including, but not limited to
+                        customer, business and/or technical information and
+                        data, or which, although not related to such subject
+                        matter, is nevertheless disclosed. as a result of the
+                        parties&apos; discussions in that regard, and which, in
+                        any case, is disclosed by the Owner to the Recipient in
+                        a document or other medium deemed and/or marked
+                        “confidential”.
                       </li>
                       <li>
                         During the Term of this Agreement, the Recipient may use
