@@ -276,14 +276,14 @@ export default function index() {
                             obscene, indecent, threatening or harassing,
                             including but not limited to, the transmission of
                             unsolicited messages, or messages which infringe any
-                            third party's proprietary right, or any other
-                            Irregular Marketing Activity. For the purpose of
-                            this agreement "Irregular Marketing Activity” means
+                            third party&apos;s proprietary right, or any other
+                            Irregular Marketing Activity. For the purpose of
+                            this agreement &quot;Irregular Marketing Activity” means
                             any activity that constitutes a clear and material
                             breach or is otherwise clearly and materially
                             inconsistent with the terms of this Agreement or
-                            which in Luca's reasonable judgment, would harm
-                            Luca's reputation if it were publicly known.
+                            which in Luca&apos;s reasonable judgment, would harm
+                            Luca&apos;s reputation if it were publicly known.
                             Irregular Marketing Activity includes without
                             limitation those activities referred to in this
                             Agreement as Irregular Marketing Activities.
@@ -336,14 +336,14 @@ export default function index() {
                         customers for the Luca Services.
                       </li>
                       <li>
-                        For purposes of this Agreement, "Confidential
-                        Information” means information disclosed by Luca
-                        ("Owner") to the Ambassador ("Recipient") which relates
+                        For purposes of this Agreement, &quot;Confidential
+                        Information&quot; means information disclosed by Luca
+                        (&quot;Owner&quot;) to the Ambassador (&quot;Recipient&quot;) which relates
                         to the subject matter of this Agreement, including, but
                         not limited to customer, business and/or technical
                         information and data, or which, although not related to
                         such subject matter, is nevertheless disclosed. as a
-                        result of the parties' discussions in that regard, and
+                        result of the parties&apos; discussions in that regard, and
                         which, in any case, is disclosed by the Owner to the
                         Recipient in a document or other medium deemed and/or
                         marked “confidential”.
@@ -425,7 +425,7 @@ export default function index() {
                       <li>acts or omissions of the other party;</li>
                       <li>fires, strikes, war, insurrection or riot;</li>
                       <li>
-                        or any other cause beyond the party's reasonable
+                        or any other cause beyond the party&apos;s reasonable
                         control.
                       </li>
                     </ul>
