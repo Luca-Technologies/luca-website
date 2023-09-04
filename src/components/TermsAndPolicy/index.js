@@ -10,6 +10,13 @@ const Style = styled.div`
     line-height: 30px;
     font-size: 500;
   }
+
+  .innerlist {
+    list-style-type: lower-alpha;
+  }
+  .inner_inner_list, .terms_list{
+    list-style-type: number;
+  }
   .terms .date {
     letter-spacing: 3px;
     font-size: 11px !important;

@@ -195,6 +195,11 @@ const CompanySection = () => (
         </Link>
       </li>
       <li>
+        <Link href="/ambassador_terms">
+          <a>Luca Ambassador Terms & Conditions</a>
+        </Link>
+      </li>
+      <li>
         <Link href="/privacypolicy">
           <a href="">Privacy Policy</a>
         </Link>
