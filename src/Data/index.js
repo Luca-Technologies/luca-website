@@ -46,20 +46,20 @@ export const FAQs = [
         Luca (pronounced Loo-ka) is a trusted, simple and easy-to-use
         bookkeeping tool for millions of micro and small businesses in Africa.
         <br />
-        <br /> Luca's smart technology allows you to see every transaction,and
-        analyze your financials in real-time.
+        <br /> Luca&apos;s smart technology allows you to see every
+        transaction,and analyze your financials in real-time.
       </div>
     ),
   },
   {
-    id: 1,
+    id: 2,
     title: "What does Luca mean?",
     description: (
       <div className="text-left">
         The word Luca is the first name of an Italian mathematician, Luca
-        Pacioli who is referred to as "The Father of Accounting and Bookkeeping"
-        was the first person to publish a work on the double-entry system of
-        book-keeping.
+        Pacioli who is referred to as &quot;The Father of Accounting and
+        Bookkeeping&quot; was the first person to publish a work on the
+        double-entry system of book-keeping.
         <br />
         <br />
         His work revolutionized how businesses oversaw their operations,
@@ -79,7 +79,7 @@ export const FAQs = [
     ),
   },
   {
-    id: 1,
+    id: 3,
     title: "How much does Luca cost?",
     description: (
       <div className="text-left">
@@ -90,6 +90,218 @@ export const FAQs = [
         invoices, SMS may require you have to pay a small subscription fee. Our
         mission is to make it easy for any African business to start, grow and
         succeed, and so, our prices are well affordable for micro-businesses.
+      </div>
+    ),
+  },
+  {
+    id: 4,
+    title: "How can I add staff?",
+    description: (
+      <div className="text-left">
+        <ul>
+          <li>
+            Log in to your Luca App, in the bottom right corner of the Luca App
+            screen, click on the &quot;More&quot; tab. On the &quot;More&quot;
+            page, go to &quot;Staff Management&quot; and select it.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            In the &quot;Staff Management&quot; section, you will see an option
+            to &quot;Add New Employee.&quot; Click on it to add a new employee.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            You will need to enter the new employee&apos;s details. Depending on
+            what you want the employee to do, you can set the permission. This
+            means you can decide what parts of your business they can operate.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            After filling the employee details and setting the permissions, go
+            to the &quot;Add Employee&quot; button and click it to enrol the new
+            employee to your Luca App.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            On the Staff management page, go to inactive staff and select the
+            new employee. Click on &quot;Activate Employee&quot; to complete the
+            enrolment process.
+            <br />
+            <br />
+            <strong>
+              Note: You must be subscribed to the Staff management module to
+              activate/deactivate employees.
+            </strong>
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+
+  {
+    id: 5,
+    title: "How do I see my profits for the week or month?",
+    description: (
+      <div className="text-left">
+        <ul>
+          <li>
+            Log in to your Luca App, in the bottom right corner of the homepage,
+            go to the &quot;More&quot; tab. On the more page, select
+            &quot;Business Performance.&quot;
+            <br />
+            <br />
+          </li>
+
+          <li>
+            Choose the period that you want to see your profit. To have an
+            in-depth report, scroll to the bottom of the screen and select
+            &quot;View detailed reports&quot;.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            In the &quot;View Detailed Reports&quot; page, you can see how well
+            your business is performing and get more business insights.
+            <br />
+            <br />
+            <strong>
+              Note: To see your profit for the day, week, month and year, you
+              need to have subscribed for the Business performance feature.
+            </strong>
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+
+  {
+    id: 6,
+    title: "How do I subscribe for the business performance?",
+    description: (
+      <div className="text-left">
+        <ul>
+          <li>
+            Start by logging into your Luca App, in the bottom right corner of
+            the Luca App screen, click on the &quot;More&quot; tab. On the
+            &quot;More&quot; page, go to &quot;Business Performance&quot;.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            In the &quot;Business Performance&quot; section, you will find an
+            option to subscribe to Business Performance Reports. Click on this
+            option to continue. Next, choose your payment plan, either monthly,
+            every 3-months, every 6-months, or every 12-months.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            Next, you will need to choose your preferred payment method, after
+            successful payment, you will be albe to use the business
+            performance.
+            <br />
+            <br />
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+
+  {
+    id: 7,
+    title: "How can I add or remove items in my inventory?",
+    description: (
+      <div className="text-left">
+        <ul>
+          <li>
+            Log in to your Luca App, in the bottom menu go to
+            &quot;Inventory.&quot;
+            <br />
+            <br />
+          </li>
+
+          <li>
+            In the inventory section, you will see two options,
+            &quot;Products&quot; and &quot;Services.&quot; Choose the section
+            you want to add or remove an item from, and update the item. <br />
+            <br />
+          </li>
+
+          <li>
+            For products, select the particular item, and click on &quot;Update
+            stock&quot;, you will see the options to add or remove items:
+            <br />
+            &quot;Add&quot; - If you want to increase the product quantity in
+            stock.
+            <br />
+            &quot;Remove&quot; - If you want to decrease the product quantity in
+            stock. <br />
+            <br />
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+
+  {
+    id: 8,
+    title: "How can register my business?",
+    description: (
+      <div className="text-left">
+        <ul>
+          <li>
+            Open the Luca App and tap on &quot;More&quot; in the bottom menu. On
+            the &quot;More&quot; page, select &quot;Luca First Step.&quot;
+            <br />
+            <br />
+          </li>
+
+          <li>
+            Once you are on the Luca Firststep page, tap the &quot;Register my
+            Business&quot; button at the bottom.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            Fill in your business information and your personal details as the
+            owner in Step 1, Click &quot;Confirm&quot; to pay the required fee
+            in Step 2 and Make the payment for Step 3.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            After filling in all the necessary information, click on
+            &quot;Submit.&quot;
+            <br />
+            <br />
+          </li>
+
+          <li>
+            That is it! You have successfully registered your business on the
+            Luca App.
+            <br />
+            <br />
+          </li>
+
+          <li>
+            Your CAC certificate will be ready in 7 days.
+            <br />
+            <br />
+          </li>
+        </ul>
       </div>
     ),
   },
@@ -406,7 +618,7 @@ export const AboutLuca = [
             You will be eligible to earn ₦700 (Seven Hundred Naira only) for
             every merchant registered with your referral code that renews their
             subscription on the Luca Africa App, subject to the Ambassador
-            maintaining "Active Ambassador Status".
+            maintaining &quot;Active Ambassador Status&quot;.
             <br />
             <br />
           </li>
@@ -420,10 +632,10 @@ export const AboutLuca = [
           </li>
 
           <li>
-            You will also earn a 3% commission on each Merchant's subscription
-            for the staff management module. For instance, if the total paid on
-            Staff Management is N27,000; your earning in that month will be 3% x
-            ₦81,000 = ₦2,430
+            You will also earn a 3% commission on each Merchant&apos;s
+            subscription for the staff management module. For instance, if the
+            total paid on Staff Management is N27,000; your earning in that
+            month will be 3% x ₦81,000 = ₦2,430
             <br />
             <br />
           </li>
