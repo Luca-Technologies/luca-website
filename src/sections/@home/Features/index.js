@@ -77,15 +77,18 @@ export default function index() {
             <Image src={Side} alt="Luca Africa Side" objectFit={"contain"} />
           </div>
           <div className="absolute sm:relative top-0 z-0 w-[400px]  h-[100px] sm:hidden">
-            <Image src={GetReadyStyleImg} alt="Luca Africa GetReadyStyleImg" objectFit={"contain"} />
+            <Image
+              src={GetReadyStyleImg}
+              alt="Luca Africa GetReadyStyleImg"
+              objectFit={"contain"}
+            />
           </div>
           <div className="row z-10">
             <div className="title-image">
               <TitleSection
                 isWhiteTheme={true}
                 title="Get ready to grow your business"
-                description="No more credit sales records in a notebook. All this so that
-                you can make better business decisions."
+                description="No more credit sales record in a notebook. Luca empowers you to make more informed business decisions."
               />
 
               <div
@@ -93,7 +96,11 @@ export default function index() {
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
-                <Image src={GetReadyImg} alt="Luca Africa GetReadyImg" objectFit={"contain"} />
+                <Image
+                  src={GetReadyImg}
+                  alt="Luca Africa GetReadyImg"
+                  objectFit={"contain"}
+                />
               </div>
             </div>
             <div

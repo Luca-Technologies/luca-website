@@ -84,7 +84,7 @@ export default function index() {
                 <Image src={Logo} alt="Luca Africa Logo" />
               </div>
               <p className="pe-12 pe-xl-5">
-                Luca is a bookkeeping app, design to help small business keep
+                Luca is a bookkeeping app designed to help small businesses keep
                 track of their financial and business activities.
               </p>
               <div className="flex">
@@ -133,7 +133,8 @@ export default function index() {
           <hr />
           <div className="text-center mt-5">
             <p className="mb-0 pb-3">
-              © {new Date().getFullYear()} Luca Technologies Limited. All rights reserved.
+              © {new Date().getFullYear()} Luca Technologies Limited. All rights
+              reserved.
             </p>
           </div>
         </div>
