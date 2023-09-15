@@ -172,7 +172,7 @@ const ProductSection = () => (
         </Link>
       </li>
       <li>
-        <Link href="/ambassador-manual">
+        <Link href="/ambassadors-manual">
           <a>About Luca Ambassador</a>
         </Link>
       </li>
@@ -195,7 +195,7 @@ const CompanySection = () => (
         </Link>
       </li>
       <li>
-        <Link href="/ambassador_terms">
+        <Link href="/ambassadors-terms">
           <a>Luca Ambassador Terms & Conditions</a>
         </Link>
       </li>
