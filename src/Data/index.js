@@ -83,13 +83,14 @@ export const FAQs = [
     title: "How much does Luca cost?",
     description: (
       <div className="text-left">
-        Luca is free for small and micro business to use. Recording
-        transactions, viewing the secured dashboard, creating invoices will
-        always be free. To access some of the advanced features like adding
-        multiple users to your account and sending unlimited receipts and
-        invoices, SMS may require you have to pay a small subscription fee. Our
-        mission is to make it easy for any African business to start, grow and
-        succeed, and so, our prices are well affordable for micro-businesses.
+        Luca is free for small and medium-sized businesses to use. You can
+        record transactions, access the secure dashboard, and generate invoices,
+        all free of charge. However, to access some advanced features such as
+        adding multiple users to your account, sending unlimited receipts and
+        invoices, business performance and invoices, you might be required to
+        pay a nominal subscription fee. Our mission is to make it easy for any
+        African business to start, grow and succeed, and so, our prices are well
+        affordable for micro-businesses.
       </div>
     ),
   },
