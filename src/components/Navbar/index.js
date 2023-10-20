@@ -123,9 +123,13 @@ export default function Index() {
               <Link href="/ambassadors">
                 <a className="nav-link">Ambassadors</a>
               </Link>
-              <Link href="/first-step">
-                <a className="special-nav-link">First Step With Luca</a>
+              <Link href="/webinar">
+                <a className="nav-link">Webinar</a>
               </Link>
+              {/* <Link href="/first-step">
+                <a className="special-nav-link">First Step With Luca</a>
+              </Link> */}
+
               {/* <Nav.Link href="#pricing">FAQs</Nav.Link> */}
               {/* <Nav.Link href="/contact">Contact us</Nav.Link> */}
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
