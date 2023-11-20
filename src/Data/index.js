@@ -83,14 +83,38 @@ export const FAQs = [
     title: "How much does Luca cost?",
     description: (
       <div className="text-left">
-        Luca is free for small and medium-sized businesses to use. You can
-        record transactions, access the secure dashboard, and generate invoices,
-        all free of charge. However, to access some advanced features such as
-        adding multiple users to your account, sending unlimited receipts and
-        invoices, business performance and invoices, you might be required to
-        pay a nominal subscription fee. Our mission is to make it easy for any
-        African business to start, grow and succeed, and so, our prices are well
-        affordable for micro-businesses.
+        Luca is a budget-friendly app for small and medium-sized businesses to
+        use. You can record transactions, generate invoices, add multiple staff
+        to manage your account, send unlimited receipts and invoices, and
+        evaluate your business performance. All these features are available
+        from as low as 200 Naira.
+        <br />
+        <br />
+        Whether you&apos;re a new or existing user, Luca provides the
+        flexibility to select a subscription package that aligns with your
+        budget. The available subscription packages include:
+        <br />
+        <br />
+        - N200 Daily (Unlimited) <br />
+        - N500 Weekly (Limited - 15 Transactions only) <br />
+        - N1000 Weekly (Unlimited) <br />
+        - N3000 Monthly <br />
+        - N9000 Every 3 Months <br />
+        - N18000 Every 6 Months <br />
+        - N36,000 Every 12 Months
+        <br />
+        <br />
+        It is important to note that each subscription package grants users
+        access to all Luca Premium features for the specified subscription
+        period (Daily, Weekly, Monthly, Every 3 months, Every 6 months, Every 12
+        months).
+        <br />
+        <br />
+        <strong>
+          {" "}
+          “Our mission is to make it easy for any small business to start, grow
+          and succeed”.
+        </strong>
       </div>
     ),
   },
@@ -102,43 +126,44 @@ export const FAQs = [
         <ul>
           <li>
             Log in to your Luca App, in the bottom right corner of the Luca App
-            screen, click on the &quot;More&quot; tab. On the &quot;More&quot;
-            page, go to &quot;Staff Management&quot; and select it.
+            screen, click on the &quot;More&quot; tab. On the &quot;More&quot; page, go to &quot;Staff
+            Management&quot; and select it.
             <br />
             <br />
           </li>
 
           <li>
-            In the &quot;Staff Management&quot; section, you will see an option
-            to &quot;Add New Employee.&quot; Click on it to add a new employee.
+            In the &quot;Staff Management&quot; section, you will see an option to &quot;Add
+            New Employee.&quot; Click on it to add a new employee.
             <br />
             <br />
           </li>
 
           <li>
-            You will need to enter the new employee&apos;s details. Depending on
-            what you want the employee to do, you can set the permission. This
-            means you can decide what parts of your business they can operate.
+            You will need to enter the new employee&apos;s details. Depending on what
+            you want the employee to do, you can set the permission. This means
+            you can decide what parts of your business they can operate.
             <br />
             <br />
           </li>
 
           <li>
-            After filling the employee details and setting the permissions, go
-            to the &quot;Add Employee&quot; button and click it to enrol the new
-            employee to your Luca App.
+            After filling in the employee details and setting the permissions,
+            go to the &quot;Add Employee&quot; button and click it to enroll the new
+            employee in your Luca App.
             <br />
             <br />
           </li>
 
           <li>
-            On the Staff management page, go to inactive staff and select the
-            new employee. Click on &quot;Activate Employee&quot; to complete the
-            enrolment process.
+            On the Staff Management page, go to inactive staff and select the
+            new employee. Click on &quot;Activate Employee&quot; to complete the enrolment
+            process.
             <br />
             <br />
             <strong>
-              Note: You must be subscribed to the Staff management module to
+              Note: You must have subscribed to any of the Luca subscription
+              packages to have access to the Staff management module in order to
               activate/deactivate employees.
             </strong>
           </li>
@@ -186,31 +211,18 @@ export const FAQs = [
 
   {
     id: 6,
-    title: "How do I subscribe for the business performance?",
+    title: "How do I subscribe for Luca Premium features?",
     description: (
       <div className="text-left">
         <ul>
           <li>
-            Start by logging into your Luca App, in the bottom right corner of
-            the Luca App screen, click on the &quot;More&quot; tab. On the
-            &quot;More&quot; page, go to &quot;Business Performance&quot;.
+            To subscribe to Luca Premium feature, simply choose any of the Luca
+            subscription packages.
             <br />
             <br />
-          </li>
-
-          <li>
-            In the &quot;Business Performance&quot; section, you will find an
-            option to subscribe to Business Performance Reports. Click on this
-            option to continue. Next, choose your payment plan, either monthly,
-            every 3-months, every 6-months, or every 12-months.
-            <br />
-            <br />
-          </li>
-
-          <li>
-            Next, you will need to choose your preferred payment method, after
-            successful payment, you will be albe to use the business
-            performance.
+            Upon subscribing to a package, you will automatically receive
+            exclusive &quot;access to staff management feature, business
+            performance, and invoice modules at no extra cost&quot;.
             <br />
             <br />
           </li>
